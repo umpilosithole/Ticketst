@@ -30,7 +30,7 @@ document.getElementById("signInForm").addEventListener("submit", function(event)
   }
 
   if (!isPasswordValid(password)) {
-    alert('Password should have at least 6 characters, an uppercase letter, a number, and a dot (.)');
+    alert('Password should have at least 4,  a number');
     return;
   }
 
